@@ -3,5 +3,3 @@ We will have different levels. To pass a level you must do/find the thing that t
 
 
 
-FOR SCINTILLA:
-we will explain you everything as soon as you come back to school or (if you answer to our whatsapps)....... brutta
