@@ -1,10 +1,45 @@
-
-body {
-    background-image: url(bghp.jpg);
-min-height: 100vh;
-background-size: cover;
+body{
+    background: #343339
 }
 
+.background {
+    background-image: url(bghp.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    animation: swing 4s infinite;
+    transform-origin: 50% 0;
+}
+
+@keyframes swing{
+    0%,
+    100%
+    {
+        transform: rotate(-20deg)
+    }
+    30%{
+        opacity: .3;
+    }
+    32%{
+        opacity: 1;
+    }
+
+    35%{
+        opacity: .5;
+    }
+
+    45%{
+        opacity: 1;
+    }
+    50%{
+        transform: rotate(20deg)
+    }
+}
 .center {
     margin: auto;
     width: 69.9%;
@@ -13,3 +48,9 @@ background-size: cover;
 
 }
  
+.ttpbutton{  
+   
+    margin: auto;
+    width: 7.5%;
+ 
+}
