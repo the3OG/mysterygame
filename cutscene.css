@@ -1,5 +1,5 @@
 body{
-    cursor: url('./images/robotwings.png'), auto;
+    cursor: url('robotwings.png'), auto;
     min-height: 100vh   ;
 }
 
@@ -13,6 +13,6 @@ body{
 }
 
 .boat:hover{
-    cursor: url('./images/cursor.png'), auto;
+    cursor: url('cursor.png'), auto;
     
 }
