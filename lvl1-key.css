@@ -2,14 +2,12 @@ body{
   
     background-image: url(key.jpg);
     min-height: 100vh;
-    background-size: cover;
-    position: absolute;
-    top:0;
-    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
-    animation: swing 4s infinite;
-    transform-origin: 50% 0;
-    
+    z-index: -1;  
+    background-position: bottom;  
 }
+
+
