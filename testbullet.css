@@ -14,8 +14,8 @@
     position: absolute;
     width: 90px;
     height: 90px;
-    left: 20%;
-    top: 10%;
+    left: 40%;
+    top: 52%;
     /* background-color: purple; */
     /* Put the image here of the obstacle */
     background-image: url(betterkey.png);
@@ -31,16 +31,98 @@
     left: 50%;
     top: 30%
 }
-
-
-
-.broken{
-    animation: 1s brokeStuff forwards;
+.obstacle-3{
+    left: 70%;
+    top: 80%
+}
+.obstacle-4{
+    left: 30%;
+    top: 60%
+}
+.obstacle-5{
+    left: 90%;
+    top: 20%
+}
+.obstacle-6{
+    left: 10%;
+    top: 20%
+}
+.obstacle-7{
+    left: 40%;
+    top: 52%
 }
 
-@keyframes brokeStuff{
+
+.broken-1{
+    animation: 1s brokeStuff1 forwards;
+}
+
+@keyframes brokeStuff1{
     100%{
         left: 30%;
+       
+    }
+}
+
+.broken-2{
+    animation: 1s brokeStuff2 forwards;
+}
+
+@keyframes brokeStuff2{
+    100%{
+        left: 60%;
+       
+    }
+}
+
+.broken-3{
+    animation: 1s brokeStuff3 forwards;
+}
+
+@keyframes brokeStuff3{
+    100%{
+        left: 60%;
+       
+    }
+}
+
+.broken-4{
+    animation: 1s brokeStuff4 forwards;
+}
+
+@keyframes brokeStuff4{
+    100%{
+        left: 20%;
+       
+    }
+}
+.broken-5{
+    animation: 1s brokeStuff5 forwards;
+}
+
+@keyframes brokeStuff5{
+    100%{
+        left: 95%;
+       
+    }
+}
+.broken-6{
+    animation: 1s brokeStuff6 forwards;
+}
+
+@keyframes brokeStuff6{
+    100%{
+        left: 5%;
+       
+    }
+}
+.broken-7{
+    animation: 1s brokeStuff7 forwards;
+}
+
+@keyframes brokeStuff7{
+    100%{
+        left: 50%;
        
     }
 }
