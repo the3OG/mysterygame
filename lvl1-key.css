@@ -17,3 +17,11 @@ body{
     color: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
 }
+.ttpbutton{
+    position: absolute;
+    top:75%;
+    left: 80%;
+    width: 40px;
+    height: 40px;
+}
+
