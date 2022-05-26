@@ -50,3 +50,12 @@ body{
     width: 250px;
     height: 30px;
 }
+
+
+.textbox{
+    position: absolute;
+    top:71%;
+    left: 63%;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+}
