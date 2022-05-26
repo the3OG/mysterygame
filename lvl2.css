@@ -10,4 +10,43 @@ body{
     background-position: bottom;  
 }
 
+.obstacle-1{
+    position: absolute;
+    width: 125px;
+    height: 115px;
+   
+    z-index: 10;
+    /* Put the image here of the obstacle */
+    /* background-image: url(); */
+    background-image: url(box1.jpg);
+    background-size: cover;
+}
 
+.obstacle-2{
+    position: absolute;
+    width: 125px;
+    height: 70px;
+   
+    z-index: 10;
+    /* Put the image here of the obstacle */
+    /* background-image: url(); */
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+
+.obstacle-1{
+    left: 75%;
+    top: 80%
+}
+.obstacle-2{
+    left: 65%;
+    top: 86%
+}
+
+.ttpbutton{
+    position: absolute;
+    top:90%;
+    left: 65%;
+    width: 250px;
+    height: 30px;
+}
