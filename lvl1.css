@@ -11,10 +11,22 @@ body{
 }
 
 
+
 .ttpbutton{
     position: absolute;
     top:82%;
-    left: 75%;
-    width: 200px;
-    height: 30px;
+    left: 76%;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+   
+}
+
+
+.textbox{
+    position: absolute;
+    top:72%;
+    left: 20%;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
 }

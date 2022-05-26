@@ -10,4 +10,10 @@ body{
     background-position: bottom;  
 }
 
-
+.textbox{
+    position: absolute;
+    top:72%;
+    left: 20%;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+}
